@@ -1,10 +1,10 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
-import AboutView from "../views/AboutView.vue";
-import ResumeView from "../views/ResumeView.vue";
-import ProjectsView from "../views/ProjectsView.vue";
-import TestimonialsView from "../views/TestimonialsView.vue";
-import ContactView from "../views/ContactView.vue";
+import HomeView from "../src/views/HomeView.vue";
+import AboutView from "../src/views/AboutView.vue";
+import ResumeView from "../src/views/ResumeView.vue";
+import ProjectsView from "../src/views/ProjectsView.vue";
+import TestimonialsView from "../src/views/TestimonialsView.vue";
+import ContactView from "../src/views/ContactView.vue";
 
 const routes = [
   {

@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid" style="flex-direction: column;">
-      <a class="navbar-brand nav" href="/">NAVBAR</a>
+      <a class="navbar-brand nav">NAVBAR</a>
       <button
         class="navbar-toggler d-flex"
         type="button"

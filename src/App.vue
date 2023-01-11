@@ -2,6 +2,7 @@
   <NavBar />
   <router-view />
   <Footer />
+  
 </template>
 
 <script>
@@ -13,20 +14,28 @@ export default {
 };
 </script>
 
+
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  background-color:rgb(83,99,82);
- 
+   background-color:rgb(83,99,82) ;
+  /* box-sizing: border-box;
+  padding: 0;
+  margin: 0; */
 }
 
 nav a{
   text-decoration: none;
   color: rgb(221,229,190);
 }
+
+nav a :hover {
+  color:rgb(130, 191, 136);
+}
+
 
 </style>

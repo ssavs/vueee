@@ -1,63 +1,17 @@
 <template>
-  <main>
-    <div class="row">
-      <div class="col-12">
-        <h1
-          class="text-center animate__animated animate__fadeInDown"
-          style="animation-duration: 3s"
-        >
-          SAVANNAH LEIGH SAMUELS
-        </h1>
-      </div>
-
-      <div class="col text-center">
-        <img
-          class="animate__animated animate__backInUp"
-          style="
-            height: 300px;
-            width: 320px;
-            border-radius: 50%;
-            animation-duration: 3s;
-          "
-          src="https://i.postimg.cc/RFpzDbfD/sav.jpg"
-          alt=""
-        />
-      </div>
-    </div>
-  </main>
+ <Home/>
 </template>
+<script>
+import Home from '@/components/Home.vue'
 
-<script></script>
-
-<style scoped>
-.showcase-top-image {
-  border-radius: 50%;
+export default {
+ name: 'HomeView',
+ components:{
+  Home
+ }
+  
 }
-
-.text-center {
-  text-align: center;
-  font-size:150%;
-}
-
-.text-center {
-  padding-top: 5%;
-}
-
-.text-center {
-  color:rgb(221,229,190);
-}
-
-main{
-   /* overflow-x: hidden;
-   overflow-y: hidden; */
-   min-height: 90vh;
-}
-
-h1{
-    font-weight: bold;
-    font-size: 7vw !important;
-}
-.row{
-    width: 100%;
-}
+</script>
+<style>
+  
 </style>
