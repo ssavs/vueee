@@ -23,6 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
    background-color:rgb(83,99,82) ;
+   min-height: 100vh;
   /* box-sizing: border-box;
   padding: 0;
   margin: 0; */

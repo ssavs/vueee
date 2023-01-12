@@ -44,8 +44,8 @@
   }
 
   img {
-    height: 250px;
-              width: 280px;
+    height: 220px;
+              width: 250px;
               border-radius: 50%;
               animation-duration: 3s;
   }

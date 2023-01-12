@@ -45,7 +45,7 @@
             required
           ></textarea>
         </div>
-        <button type="submit" class="btn submitbtn mt-3" value="Submit">
+        <button type="submit" class="btn submitbtn" value="Submit">
           Send
         </button>
       </div>
@@ -64,7 +64,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 
 .main {
    background-color: rgb(83, 99, 82);
@@ -89,7 +89,7 @@ h1 {
 
 
 .submitbtn {
-  display: flex;
+  margin: auto;
   justify-content: center;
   align-items: center;
   background-color: rgb(33, 37, 41);
@@ -101,4 +101,11 @@ h1 {
   background-color: rgba(33, 37, 41, 0.719) !important;
   color: white;
 }
+
+@media screen and (min-width: 350px) {
+  col-icons {
+    font-size: 30px;
+  }
+}
+
 </style>

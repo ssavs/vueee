@@ -15,7 +15,7 @@ export default {};
   background-color: rgba(45, 43, 45, 0.988);
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: x-large;
+  font-size:large;
 
 }
 </style>

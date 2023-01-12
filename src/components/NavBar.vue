@@ -95,4 +95,14 @@ nav a {
   font-size: xx-large;
   
 }
+.navbar-toggler{
+  display: none !important;
+}
+
+@media screen and (width <990px) {
+  .navbar-toggler{
+    display: block !important;
+  }
+}
+
 </style>
