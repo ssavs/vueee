@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <h1>Contact Me</h1>
+    <h2>Let's hear you out ? </h2>
     <form class="for" action="https://formspree.io/f/mknanyrd" method="POST">
       <div class="row m-5">
         <div class="col">
@@ -67,7 +67,7 @@ export default {};
 <style scoped>
 
 .main {
-   background-color: rgb(83, 99, 82);
+   /* background-color: rgb(83, 99, 82); */
   /*overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden; */
@@ -75,9 +75,11 @@ export default {};
   
 }
 
-h1 {
-  text-decoration: underline;
+h2 {
+ 
   margin-top: 0.5%;
+  text-decoration: underline;
+  color: white;
 }
 
 .col-icons a {
@@ -92,7 +94,7 @@ h1 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  background-color: rgb(33, 37, 41);
+  background-color: rgb(18, 20, 21);
   color: white;
   width: 70px;
 }

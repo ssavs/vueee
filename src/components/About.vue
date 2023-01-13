@@ -4,14 +4,14 @@
 </div>
 <div class="row">
 <div class="col m">
-      <div class="bg">
+      <div class="bg my-5">
   <img src="https://i.postimg.cc/prP8DKFC/IMG-20211022-143550-810-278-removebg-preview.png" alt="sav" width="480px" height="600px">
 </div>
 </div>
 
 <div class="col-7">
 
-  <h1 class="about m-2">About</h1>
+  <h2 class="about m-2">About</h2>
 
 <div class="container">
 <div class="paragraph ps-8 ">
@@ -34,13 +34,12 @@ export default {
 
 <style scoped>
 
-
 .text-center{
   float: right;
 }
 
 main {
-  background-color:rgb(83,99,82) ;
+  /* background-color:rgb(83,99,82) ; */
 }
 .text-left {
   font-size: 50px;
@@ -48,8 +47,8 @@ main {
   padding: 20px;
 }
 
-.container {
-  /* float: left; */
+h2{
+  color: white !important;
 }
 
 .paragraph{
@@ -58,7 +57,7 @@ main {
   font-size: 28px;
   color: rgb(202,212,171);
   padding-top: 25px;
-  word-break: break-all;
+  /* word-break: break-all; */
 
 }
 
@@ -71,6 +70,7 @@ main {
   justify-content: center;
   display: flex;
 }
+
 
 
 

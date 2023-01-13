@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid" style="flex-direction: column;">
-      <a class="navbar-brand nav">NAVBAR</a>
       <button
         class="navbar-toggler d-flex"
         type="button"
@@ -86,6 +85,9 @@ nav a {
   font-weight: bold;
 }
 
+.navbar {
+color: rgb(0,30,20);
+}
 .navbarrr{
   font-size: x-large;
 

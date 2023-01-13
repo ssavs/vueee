@@ -18,15 +18,17 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-   background-color:rgb(83,99,82) ;
+   /* background:#536352 ; */
+   background: linear-gradient(#536352, #000);
    min-height: 100vh;
-  /* box-sizing: border-box;
-  padding: 0;
-  margin: 0; */
+ 
+}
+body::-webkit-scrollbar {
+  display: none;
+
 }
 
 nav a{
@@ -38,5 +40,8 @@ nav a :hover {
   color:rgb(130, 191, 136);
 }
 
+/* *{
+  color: white;
+} */
 
 </style>

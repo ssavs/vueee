@@ -1,6 +1,6 @@
 <template>
-  <div class="col-6"></div>
-  <h1 class="testimonials mt-2">Testimonials</h1>
+  <div class="col-4"></div>
+  <h2 class="testimonials mt-2">Testimonials</h2>
   <div class="test container mx-auto">
     <div class="row gap-2 justify-content-center">
       <div class="card col-4" v-for="item in colleagues" :key="item">
@@ -13,17 +13,6 @@
       </div>
     </div>
   </div>
-
-  <!-- </div>
-</div>
-  <div class="container">
-    <div class="cards" v-for="item in colleagues" :key="item">
-      <img :src="item.image" />
-      <h2>{{ item.name }}</h2>
-      <h3>{{ item.saying }}</h3>
-      <p>{{ item.number }}</p>
-    </div>
-  </div> -->
 </template>
 
 <script>
@@ -86,20 +75,25 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h2 {
   align-items: center;
   justify-content: center;
   text-decoration: underline;
+
+}
+h2, h3, p{
+  color: black;
 }
 
 .card {
   width: 18rem;
+  height: 25rem;
 }
 
 h3 {
   font-size: large;
-  text-align: justify;
-  word-break: break-all;
+  /* text-align: justify; */
+  /* word-break: break-all; */
 }
 
 h4 {
@@ -111,12 +105,18 @@ h4 {
 }
 
 .gap-2 {
-  gap: 4.5rem !important;
+  gap: 2.5rem !important;
+  padding: 50px !important;
 }
+
 
 .test {
   justify-content: center;
   align-items: center;
+
   /* float: right; */
 }
+.testimonials{
+  color: white;
+} 
 </style>
