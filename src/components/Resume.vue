@@ -77,12 +77,15 @@ img {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+    /* background-color: ; */
 }
 .cardLeft{
     grid-column: 1/2;
+    background-color: rgb(221,229,190);
 }
 .cardRight{
     grid-column: 2/3;
+    background-color: rgb(221,229,190);
 }
 
     
