@@ -5,9 +5,9 @@
     <div class="card mt-4 col-12
     cardContainer." :class="item.class" >
     <div class="card-body border-5">
-      <h5 class=" cards card-title">{{ item.name }}</h5>
+      <h5 class=" cards card-title">{{ item.date }}</h5>
       <img :src="item.image" width="500" height="500">
-      <h4>{{ item.date }}</h4>
+      <h4>{{ item.name }}</h4>
       <p>{{ item.experience }}</p>
     </div>
 </div>

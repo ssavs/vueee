@@ -88,6 +88,7 @@ h2, h3, p{
 .card {
   width: 18rem;
   height: 25rem;
+  background-color: rgb(221,229,190);
 }
 
 h3 {
