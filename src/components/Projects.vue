@@ -9,7 +9,6 @@
         <a :href="item.github" class="github card-link"><ion-icon  name="logo-github"></ion-icon></a>
       <a :href="item.netlify" class="netlify card-link"><ion-icon name="link"></ion-icon></a>
       </div>
-      
     </div>
   </div>
   </div>
@@ -67,7 +66,7 @@ export default {
           image: "https://i.postimg.cc/gJpxwHMD/image-1.jpg",
           github: "https://github.com/ssavs/crypto.git",
           netlify: "https://cryptoooo.netlify.app"
-        },
+        }
       ],
     };
   },
@@ -97,7 +96,8 @@ img {
 .card{
   width: 40%;
   margin: 0.5rem;
-  background-color: rgb(221,229,190);
+  background-color: #e1d9e3;
+  margin-bottom: 5%;
 
 }
 .cards {

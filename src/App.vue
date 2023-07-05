@@ -17,13 +17,16 @@ export default {
 
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Anaheim");
 #app {
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
    /* background:#536352 ; */
-   background: linear-gradient(#536352, #000);
+   background:#CEBFB6;
    min-height: 100vh;
+   font-family: "Anaheim";
  
 }
 body::-webkit-scrollbar {
@@ -33,11 +36,11 @@ body::-webkit-scrollbar {
 
 nav a{
   text-decoration: none;
-  color: rgb(221,229,190);
+  color: #000000;
 }
 
 nav a :hover {
-  color:rgb(130, 191, 136);
+  color:#bc84d6;
 }
 
 /* *{

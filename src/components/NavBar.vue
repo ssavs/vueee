@@ -1,69 +1,72 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
+    <img src="https://i.postimg.cc/rwBLKjnc/Black-and-Grey-Modern-Typography-Fashion-Logo-removebg-preview.png" alt="" width="100" height="70" class="d-inline-block align-text-top">
     <div class="container-fluid" style="flex-direction: column;">
+      
       <button
-        class="navbar-toggler d-flex"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+      class="navbar-toggler d-flex"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
       style="position: absolute; right: 15px;">
-
-
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbarrr">
+      
+      
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbarrr">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link active"
-              aria-current="page"
+            class="nav-link active"
+            aria-current="page"
               ><RouterLink to="/">Home</RouterLink></a>
             
           </li>
           <li class="nav-item">
             <a
-              class="nav-link active"
-              aria-current="page"
-              ><RouterLink to="/about">About</RouterLink></a>
-             
+            class="nav-link active"
+            aria-current="page"
+            ><RouterLink to="/about">About</RouterLink></a>
+            
+            
+          </li>
+          <li class="nav-item">
+            <a
+            class="nav-link active"
+            aria-current="page"
+            ><RouterLink to="/resume">Resume</RouterLink></a>
             
           </li>
           <li class="nav-item">
             <a
               class="nav-link active"
               aria-current="page"
-             ><RouterLink to="/resume">Resume</RouterLink></a>
-            
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-             ><RouterLink to="/projects">Projects</RouterLink></a>
-            
-          </li>
-          <li class="nav-item">
-            <a
+              ><RouterLink to="/projects">Projects</RouterLink></a>
+              
+            </li>
+            <li class="nav-item">
+              <a
               class="nav-link active"
               aria-current="page"
               ><RouterLink to="/testimonial">Testimonials</RouterLink></a>
-            
-          </li>
-          <li class="nav-item">
-            <a
+              
+            </li>
+            <li class="nav-item">
+              <a
               class="nav-link active"
               aria-current="page"
               ><RouterLink to="/contact">Contact</RouterLink></a>
               
-          </li>
-        </ul>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary">Contact</button>
+        </div>
       </div>
     </div>
-  </div>
   </nav>
 </template>
 
@@ -82,14 +85,18 @@ nav {
 }
 
 nav a {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .navbar {
-color: rgb(0,30,20);
+background-color: #EEEBED; 
+
 }
 .navbarrr{
-  font-size: x-large;
+  font-size: 1.5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 
 
 }
@@ -105,6 +112,19 @@ color: rgb(0,30,20);
   .navbar-toggler{
     display: block !important;
   }
+}
+
+.btn {
+  color:white ;
+  margin: auto;
+  display: flex;
+justify-content: space-between;
+background-color: #B6A0BC;
+border: none;
+margin-left: 15rem;
+font-size: 80%;
+padding:10px 20px;
+border-radius: 25px;
 }
 
 </style>

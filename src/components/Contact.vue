@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <h2>Let's hear you out ? </h2>
+    <h2>Get In Touch </h2>
     <form class="for" action="https://formspree.io/f/mknanyrd" method="POST">
       <div class="row m-5">
         <div class="col">
@@ -55,7 +55,7 @@
         <a href="https://www.linkedin.com/in/savannah-samuels-072377211/"><ion-icon name="logo-linkedin"></ion-icon></a>
         <a href="https://github.com/ssavs"><ion-icon name="logo-github"></ion-icon></a>
         <a href="https://www.instagram.com/savs_bby/"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="https://www.facebook.com/sav.samuels.5"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/savannah-samuels-072377211/"><ion-icon name="logo-linkedin"></ion-icon></a>
         <a href="https://twitter.com/savss_bby"><ion-icon name="logo-twitter"></ion-icon></a>
       </div>
     </div>

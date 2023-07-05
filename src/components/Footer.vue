@@ -1,5 +1,6 @@
 <template>
-  <div class="footer">&copy; Copyright 2022 Sav Samuels</div>
+  <div class="footer">
+    &copy; Copyright 2022 Sav Samuels</div>
 </template>
 
 <script>
@@ -12,10 +13,11 @@ export default {};
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(45, 43, 45, 0.988);
-  color: rgb(255, 255, 255);
+  background-color:#dcd5da;
+  color: black;
   text-align: center;
   font-size:large;
+  font-weight: bold;
 
 }
 </style>

@@ -60,7 +60,8 @@ export default {
             name:"Life Choices Academy",
             image:"https://i.postimg.cc/DyKBDhWY/images.png",
             date:"Sept 2022-Current",
-            experience:"Learning various coding languages and doing projects after each module to test my knowledge."}
+            experience:"Learning various coding languages and doing projects after each module to test my knowledge."
+        }
     ]
 
     }
@@ -82,10 +83,12 @@ img {
 .cardLeft{
     grid-column: 1/2;
     background-color: rgb(221,229,190);
+    margin-bottom: 8%;
 }
 .cardRight{
     grid-column: 2/3;
     background-color: rgb(221,229,190);
+    margin-bottom: 8%;
 }
 
     
