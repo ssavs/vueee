@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 col-md-6 d-flex justify-content-space-between">
         <div class="bg img-fluid">
-          <img src="https://i.postimg.cc/XYRjCq8r/0-DC51406-7582-4-D30-B6-BD-69-CF03545-C1-E-removebg-preview-1.png"
+          <img src="https://i.postimg.cc/7PKCn5gh/0-DC51406-7582-4-D30-B6-BD-69-CF03545-C1-E-removebg-preview-1-fotor-bg-remover-2023070516851.png"
             alt="sav" width="500" height="600" class="responsive">
         </div>
       </div>

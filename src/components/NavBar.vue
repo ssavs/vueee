@@ -63,7 +63,8 @@
               
             </li>
           </ul>
-          <button type="button" class="btn btn-primary">Contact</button>
+          <button type="button" class="btn btn-primary"
+          ><RouterLink to="/contact"></RouterLink>Contact</button>
         </div>
       </div>
     </div>
