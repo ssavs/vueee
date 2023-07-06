@@ -50,6 +50,7 @@
         </button>
       </div>
     </form>
+  </div>
     <div class="col-icons d-flex flex-col">
       <div class="col cols-md-5">
         <a href="https://www.linkedin.com/in/savannah-samuels-072377211/"><ion-icon name="logo-linkedin"></ion-icon></a>
@@ -59,7 +60,6 @@
         <a href="https://twitter.com/savss_bby"><ion-icon name="logo-twitter"></ion-icon></a>
       </div>
     </div>
-  </div>
 </template>
 <script>
 export default {};
@@ -78,8 +78,9 @@ export default {};
 h2 {
  
   margin-top: 0.5%;
-  text-decoration: underline;
-  color: white;
+  /* text-decoration: underline; */
+  color: black;
+  font-size: 50px;
 }
 
 .col-icons a {

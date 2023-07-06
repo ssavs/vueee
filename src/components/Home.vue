@@ -10,7 +10,7 @@
           <h3>Welcome I'm</h3>
           <h1 class="animate__animated animate__zoomIn">Savannah Samuels</h1>
           <h3>Web Developer</h3>
-          <button type="button" class="btn btn-primary">Learn More</button>
+          <button type="button" href="/src/components/About.vue"  class="btn btn-primary">Learn More</button>
         </div>
 
       </div>

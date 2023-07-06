@@ -63,7 +63,7 @@
               
             </li>
           </ul>
-          <button type="button" class="btn btn-primary"
+          <button type="button" href="/src/components/Contact.vue" class="btn btn-primary"
           ><RouterLink to="/contact"></RouterLink>Contact</button>
         </div>
       </div>

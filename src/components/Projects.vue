@@ -1,5 +1,5 @@
 <template>
-  <h2>Projects</h2>
+  <!-- <h2>Projects</h2> -->
   <div class="row justify-content-center">
     <div class="card mt-4" v-for="item in projects">
     <div class="card-body">

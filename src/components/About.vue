@@ -28,6 +28,8 @@
             <ion-icon name="logo-html5"></ion-icon>
             <ion-icon name="logo-css3"></ion-icon>
             <ion-icon name="logo-vue"></ion-icon>
+            <ion-icon name="logo-wordpress"></ion-icon>
+            <ion-icon name="logo-figma"></ion-icon>
           </div>
           <h2 class="soft">Soft Skills</h2>
           <div class="row">
@@ -52,6 +54,17 @@
         </div>
       </div>
     </div>
+    <h2 class="likings">Things I Enjoy</h2>
+    <div class="image-grid">
+		<img class="my-img image-grid-col-1 image-grid-row-2" src="https://i.postimg.cc/fLg8mtSG/ali-abdul-rahman-v-CL9-Bpjs-H-4-unsplash.jpg" alt="architecture">
+		<!-- <img src="https://i.postimg.cc/7PKCn5gh/0-DC51406-7582-4-D30-B6-BD-69-CF03545-C1-E-removebg-preview-1-fotor-bg-remover-2023070516851.png" alt="architecture"> -->
+		<img class="my-img1" src="https://i.postimg.cc/nV7f1pTy/monika-grabkowska-neu4-T59m-Tc-Y-unsplash.jpg" alt="architecture">
+		
+      <img class=" my-img image-grid-col-1 image-grid-row-2" src="https://i.postimg.cc/fLbmNMT5/lean-xview-LH7-hr5-Pb-M-unsplash.jpg" alt="architecture">
+		<img class="my-img1"  src="https://i.postimg.cc/zXVWQ2HY/louis-philippe-poitras-s-Jguc-Umca-KE-unsplash.jpg" alt="architecture">
+    <img class="my-img1"  src="https://i.postimg.cc/Rq5MX0nF/artur-kornakov-Kn-Mg-Ebk-M8-Xk-unsplash.jpg" alt="architecture">
+		<img class="my-img1" src="https://i.postimg.cc/vTRrLWX6/leon-seibert-h-Qz-BAt-Jo-JQo-unsplash.jpg" alt="architecture">
+	</div>
   </main>
 </template>
 
@@ -83,6 +96,43 @@ export default {
   max-width: 100%;
   height: auto;
 }
+
+body {
+	margin: 0;
+}
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-grid{
+  margin-bottom: 1.5%;
+}
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
 
 * {
   box-sizing: border-box;
@@ -130,12 +180,6 @@ main {
 
 }
 
-.text-left {
-  font-size: 50px;
-  color: rgb(201, 96, 168);
-  padding: 20px;
-}
-
 .about{
   color: black;
   font-size: 50px;
@@ -170,6 +214,23 @@ h4 {
   color: white;
 }
 
+/* img:hover{
+
+} */
+
+.my-img:hover {
+  filter: blur(3px);
+  -webkit-transition: 400ms ease 100ms;
+  -moz-transition: 400ms ease 100ms;
+  transition: 400ms ease 100ms;
+}
+
+.my-img1:hover{
+  filter: blur(3px);
+  -webkit-transition: 400ms ease 100ms;
+  -moz-transition: 400ms ease 100ms;
+  transition: 400ms ease 100ms;
+}
 
 @media screen and (max-width:600px) {
 
@@ -180,6 +241,18 @@ h4 {
   .paragraph p {
     font-size: 20px;
   }
+}
+
+.likings{
+  font-size: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
 }
 
 img {
